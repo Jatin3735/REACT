@@ -1,0 +1,232 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    padding: 36px 34px 12px 33px;
+    position: fixed;
+    top: 0;
+    left: 57px;
+    right: 0;
+    border-radius: 135px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 997;
+  }
+  div#Body {
+    margin-top: 6rem;
+}
+.navlogo h1{
+    color: #0f2943;
+    font-size: 35px;
+    font-family: "Poller One", serif;
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: #0f2943;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navlinks li a:hover{
+    color: #e87532;
+}
+.navicons{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 21px;
+}
+.navicons i{
+    color: gray;
+}
+.navicons i:hover{
+    color: #e87532;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    width: 83%;
+    padding: 80px 0;
+    margin: 2rem auto; 
+    overflow: hidden;
+}
+.content_item{
+    padding: 5px;
+}
+.content_item h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #0f2943;
+    line-height: 1.2;
+}
+.content_item p{
+    font-size: 1.2rem;
+    color: #0a0f14;
+    font-weight: 300;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.content_item .btns {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 3px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.content_item .btns .btn_fill{
+    background-color: #e87532;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.content_item .btns .btn_fill:hover{
+    background-color: #f7a271;
+    transition: .4s;
+   
+    transform: translateY(-3px);
+}
+.content_item .btns .btn_outline{
+    outline:2px solid #f7ae85;
+    text-decoration: none;
+    color: #e87532;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.content_item .btns .btn_outline:hover{
+    background-color: #e87532;
+    transform: translateY(-3px);
+    transition: .4s;
+    color: white;
+    outline: none;
+}
+.content_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 80%;
+    width: 80%;
+    animation: rotate 3s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.rates {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+}
+.stat-item {
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+}
+span.stat-number {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f2943;
+}
+span.stat-label {
+    color: #575f66;
+    font-size: 14px;
+}
+.about{
+    text-align: center;
+    width: 83%;
+    margin: 2rem auto;
+    padding: 60px 0;
+}
+.about-title-name h2{
+    font-size: 42px;
+    color: #894f2e;
+    font-weight: 600;
+    margin-bottom: 2rem auto;
+}
+.title-shape span{
+    width: 40%;
+    font-size: 40px;
+}
+.about-title-p{
+    width: 800px;
+    margin: 15px auto;
+    font-size: 16px;
+    color: #575f66;
+    font-weight: 400
+}
+.about-content{
+    display: flex;
+    padding: 20px;
+}
+.about-image{
+    width: 50%;
+    padding: 20px;
+}
+.about-image img{
+    border-radius: 12px;
+}
+.about-me{
+    width: 50%;
+}
+.about-me-detail{
+    padding: 10px;
+    text-align: left;
+}
+.about-me-name{
+    font-size: 0.875rem;
+    color: #e87532;
+    font-weight: 600;
+    margin-bottom: 1rem ;
+    letter-spacing: 2px;
+}
+.ui{
+    color: #0f2943;
+    filter: blur(.5px);
+    word-spacing: 2px;
+    font-size: 31px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+p{
+    color: #575f66;
+}
